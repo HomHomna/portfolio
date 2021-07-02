@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: white;
+    color: #c68c53;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+h1 {
+    color: white; 
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 18px;
+    width: 20rem;
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+   
+}
+ a:hover{
+    color: #c68c53;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    margin: auto;
+    width: 50rem;
+    li {
+        text-align: center;
+        margin: auto;
+        color: #808080;
+    }
+}
+
+.title {
+    margin: -16px -8px;
+    background-color: #c68c53;
+    height: 3rem;
+}
+
+.me{
+    display: flex;
+   
+    
+}
+
+.name {
+    margin: 2.5rem auto;
+}
+
+.profile {
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    img {
+        border-radius: 50%;
+       
+    }
+}
+
+.about-me {
+    margin: 1rem auto;
+    width: 50rem;
+    font-size: 20px;
+    background-color: #c68c53 ;
+    color: white;
+    padding: 1rem;
+    border-radius: 30px;
+    opacity: 0.6;
+}
+
+.skills {
+    margin: 3rem auto;
+    margin-top: 10rem;
+    color: white;
+    background-color: #c68c53 ;
+    opacity: 0.6;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 50rem;
+    font-size: 19px;
+}
+.my-skill{
+    margin-left: 1rem;
+    
+    .skill {
+        margin-top: 1rem;
+    }
+
+}
+
+.contacts {
+    margin: 3rem 0rem;
+    margin-top: 10rem;
+    margin-bottom: -6;
+}
